@@ -1,0 +1,15 @@
+# INTRODUCTION
+# Thesis Dissertation Ali Trabi aka Jake aka Yonkou
+# Here I will step by step go on about how to use ML to benefit us in predictin stock market prices
+# First step is getting the data
+
+#1 GETTING DATA
+# We will be using Yahoo finance (theres also google finance API) since it's really hard to find a free dataset about 
+# the historical prices of stock prices and Yahoo Finance is one of the few free options
+# another option is to use Alpha Vantage it has a free API 
+# source: https://pandas-datareader.readthedocs.io/en/latest/remote_data.html
+APIKEY = "XIBTEAC0WWX5ONGP"
+
+# option 1. yfinance (1 year data from all stocks)
+# option 2. alphavantage (user updated alltime data from a lot of stocks)
+# option 3. https://github.com/Stonks/tickers/tree/main (intraday data of all stocks)
